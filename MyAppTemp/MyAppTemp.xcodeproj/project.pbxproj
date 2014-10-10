@@ -12,7 +12,6 @@
 		A9FE892C19E778E200A8A570 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9FE892B19E778E200A8A570 /* UIKit.framework */; };
 		A9FE893219E778E200A8A570 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9FE893019E778E200A8A570 /* InfoPlist.strings */; };
 		A9FE893419E778E200A8A570 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FE893319E778E200A8A570 /* main.m */; };
-		A9FE894119E778E200A8A570 /* MPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FE894019E778E200A8A570 /* MPViewController.m */; };
 		A9FE894319E778E200A8A570 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9FE894219E778E200A8A570 /* Images.xcassets */; };
 		A9FE894A19E778E200A8A570 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9FE894919E778E200A8A570 /* XCTest.framework */; };
 		A9FE894B19E778E200A8A570 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9FE892719E778E200A8A570 /* Foundation.framework */; };
@@ -44,8 +43,6 @@
 		A9FE893119E778E200A8A570 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A9FE893319E778E200A8A570 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A9FE893519E778E200A8A570 /* MyAppTemp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyAppTemp-Prefix.pch"; sourceTree = "<group>"; };
-		A9FE893F19E778E200A8A570 /* MPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPViewController.h; sourceTree = "<group>"; };
-		A9FE894019E778E200A8A570 /* MPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPViewController.m; sourceTree = "<group>"; };
 		A9FE894219E778E200A8A570 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A9FE894819E778E200A8A570 /* MyAppTempTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAppTempTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9FE894919E778E200A8A570 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -121,8 +118,6 @@
 				A9FE895F19E7794E00A8A570 /* Classes */,
 				A9FE896319E7794E00A8A570 /* Other classes */,
 				A9FE896419E7794E00A8A570 /* Resourses */,
-				A9FE893F19E778E200A8A570 /* MPViewController.h */,
-				A9FE894019E778E200A8A570 /* MPViewController.m */,
 				A9FE894219E778E200A8A570 /* Images.xcassets */,
 				A9FE892E19E778E200A8A570 /* Supporting Files */,
 			);
@@ -308,7 +303,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9FE893419E778E200A8A570 /* main.m in Sources */,
-				A9FE894119E778E200A8A570 /* MPViewController.m in Sources */,
 				A9FE896E19E779E800A8A570 /* MPSplashViewController.m in Sources */,
 				A9FE896519E7794E00A8A570 /* MPAppDelegate.m in Sources */,
 			);
@@ -511,6 +505,7 @@
 				A9FE895B19E778E200A8A570 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A9FE895C19E778E200A8A570 /* Build configuration list for PBXNativeTarget "MyAppTempTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +514,7 @@
 				A9FE895E19E778E200A8A570 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
