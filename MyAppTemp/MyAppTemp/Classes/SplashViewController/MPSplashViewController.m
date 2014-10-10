@@ -26,7 +26,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    NSLog(@"Test My App");
+    NSLog(@"Test My App 1");
+    
     // Do any additional setup after loading the view.
 }
 
