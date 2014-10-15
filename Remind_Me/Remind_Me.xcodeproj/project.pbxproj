@@ -20,10 +20,15 @@
 		A924E94719E786FF00E44E8D /* Remind_MeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A924E94619E786FF00E44E8D /* Remind_MeTests.m */; };
 		A924E95C19E787D300E44E8D /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A924E95819E787D300E44E8D /* Main_iPad.storyboard */; };
 		A924E95D19E787D300E44E8D /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A924E95919E787D300E44E8D /* Main_iPhone.storyboard */; };
-		A9ACA4B219EB7C80006EF1E5 /* RMSplascreen.m in Sources */ = {isa = PBXBuildFile; fileRef = A9ACA4B119EB7C80006EF1E5 /* RMSplascreen.m */; };
-		A9ACA4B519EB7D92006EF1E5 /* RMRegisterUser.m in Sources */ = {isa = PBXBuildFile; fileRef = A9ACA4B419EB7D92006EF1E5 /* RMRegisterUser.m */; };
-		A9ACA4B819EB7EC4006EF1E5 /* RMLoginUser.m in Sources */ = {isa = PBXBuildFile; fileRef = A9ACA4B719EB7EC4006EF1E5 /* RMLoginUser.m */; };
-		A9ACA4BB19EB7FD3006EF1E5 /* RMHomePage.m in Sources */ = {isa = PBXBuildFile; fileRef = A9ACA4BA19EB7FD3006EF1E5 /* RMHomePage.m */; };
+		A96E65D619EE1A98002A6757 /* RMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A96E65D519EE1A98002A6757 /* RMAppDelegate.m */; };
+		A96E65E319EE1B7D002A6757 /* RMHomePage.m in Sources */ = {isa = PBXBuildFile; fileRef = A96E65D919EE1B7D002A6757 /* RMHomePage.m */; };
+		A96E65E419EE1B7D002A6757 /* RMLoginUser.m in Sources */ = {isa = PBXBuildFile; fileRef = A96E65DC19EE1B7D002A6757 /* RMLoginUser.m */; };
+		A96E65E519EE1B7D002A6757 /* RMRegisterUser.m in Sources */ = {isa = PBXBuildFile; fileRef = A96E65DF19EE1B7D002A6757 /* RMRegisterUser.m */; };
+		A96E65E619EE1B7D002A6757 /* RMSplascreen.m in Sources */ = {isa = PBXBuildFile; fileRef = A96E65E219EE1B7D002A6757 /* RMSplascreen.m */; };
+		A96E65ED19EE2569002A6757 /* RMBirthday.m in Sources */ = {isa = PBXBuildFile; fileRef = A96E65EC19EE2569002A6757 /* RMBirthday.m */; };
+		A96E660019EE26CB002A6757 /* RMAnniversary.m in Sources */ = {isa = PBXBuildFile; fileRef = A96E65FF19EE26CB002A6757 /* RMAnniversary.m */; };
+		A96E660619EE282E002A6757 /* RMSms.m in Sources */ = {isa = PBXBuildFile; fileRef = A96E660519EE282E002A6757 /* RMSms.m */; };
+		A96E660A19EE28A3002A6757 /* RMEmailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A96E660919EE28A3002A6757 /* RMEmailVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,14 +58,24 @@
 		A924E94619E786FF00E44E8D /* Remind_MeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Remind_MeTests.m; sourceTree = "<group>"; };
 		A924E95819E787D300E44E8D /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
 		A924E95919E787D300E44E8D /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
-		A9ACA4B019EB7C80006EF1E5 /* RMSplascreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMSplascreen.h; sourceTree = "<group>"; };
-		A9ACA4B119EB7C80006EF1E5 /* RMSplascreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMSplascreen.m; sourceTree = "<group>"; };
-		A9ACA4B319EB7D92006EF1E5 /* RMRegisterUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMRegisterUser.h; sourceTree = "<group>"; };
-		A9ACA4B419EB7D92006EF1E5 /* RMRegisterUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMRegisterUser.m; sourceTree = "<group>"; };
-		A9ACA4B619EB7EC4006EF1E5 /* RMLoginUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMLoginUser.h; sourceTree = "<group>"; };
-		A9ACA4B719EB7EC4006EF1E5 /* RMLoginUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMLoginUser.m; sourceTree = "<group>"; };
-		A9ACA4B919EB7FD3006EF1E5 /* RMHomePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMHomePage.h; sourceTree = "<group>"; };
-		A9ACA4BA19EB7FD3006EF1E5 /* RMHomePage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMHomePage.m; sourceTree = "<group>"; };
+		A96E65D419EE1A98002A6757 /* RMAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMAppDelegate.h; sourceTree = "<group>"; };
+		A96E65D519EE1A98002A6757 /* RMAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMAppDelegate.m; sourceTree = "<group>"; };
+		A96E65D819EE1B7D002A6757 /* RMHomePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMHomePage.h; sourceTree = "<group>"; };
+		A96E65D919EE1B7D002A6757 /* RMHomePage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMHomePage.m; sourceTree = "<group>"; };
+		A96E65DB19EE1B7D002A6757 /* RMLoginUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMLoginUser.h; sourceTree = "<group>"; };
+		A96E65DC19EE1B7D002A6757 /* RMLoginUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMLoginUser.m; sourceTree = "<group>"; };
+		A96E65DE19EE1B7D002A6757 /* RMRegisterUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMRegisterUser.h; sourceTree = "<group>"; };
+		A96E65DF19EE1B7D002A6757 /* RMRegisterUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMRegisterUser.m; sourceTree = "<group>"; };
+		A96E65E119EE1B7D002A6757 /* RMSplascreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMSplascreen.h; sourceTree = "<group>"; };
+		A96E65E219EE1B7D002A6757 /* RMSplascreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMSplascreen.m; sourceTree = "<group>"; };
+		A96E65EB19EE2569002A6757 /* RMBirthday.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMBirthday.h; sourceTree = "<group>"; };
+		A96E65EC19EE2569002A6757 /* RMBirthday.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMBirthday.m; sourceTree = "<group>"; };
+		A96E65FE19EE26CB002A6757 /* RMAnniversary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMAnniversary.h; sourceTree = "<group>"; };
+		A96E65FF19EE26CB002A6757 /* RMAnniversary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMAnniversary.m; sourceTree = "<group>"; };
+		A96E660419EE282E002A6757 /* RMSms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMSms.h; sourceTree = "<group>"; };
+		A96E660519EE282E002A6757 /* RMSms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMSms.m; sourceTree = "<group>"; };
+		A96E660819EE28A3002A6757 /* RMEmailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMEmailVC.h; sourceTree = "<group>"; };
+		A96E660919EE28A3002A6757 /* RMEmailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMEmailVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,14 +177,16 @@
 		A924E95019E787D300E44E8D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				A9ACA4B019EB7C80006EF1E5 /* RMSplascreen.h */,
-				A9ACA4B119EB7C80006EF1E5 /* RMSplascreen.m */,
-				A9ACA4B319EB7D92006EF1E5 /* RMRegisterUser.h */,
-				A9ACA4B419EB7D92006EF1E5 /* RMRegisterUser.m */,
-				A9ACA4B619EB7EC4006EF1E5 /* RMLoginUser.h */,
-				A9ACA4B719EB7EC4006EF1E5 /* RMLoginUser.m */,
-				A9ACA4B919EB7FD3006EF1E5 /* RMHomePage.h */,
-				A9ACA4BA19EB7FD3006EF1E5 /* RMHomePage.m */,
+				A96E65D319EE1A98002A6757 /* AppDelegate */,
+				A96E65E019EE1B7D002A6757 /* SplashScreen */,
+				A96E65DA19EE1B7D002A6757 /* LoginPage */,
+				A96E65DD19EE1B7D002A6757 /* RegisterPage */,
+				A96E65D719EE1B7D002A6757 /* HomePage */,
+				A96E65EA19EE2569002A6757 /* Birthday */,
+				A96E65FD19EE26CB002A6757 /* Anniversary */,
+				A96E660119EE2745002A6757 /* Event */,
+				A96E660319EE27D6002A6757 /* SmsVC */,
+				A96E660719EE287D002A6757 /* EmailVC */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -195,6 +212,94 @@
 				A924E95819E787D300E44E8D /* Main_iPad.storyboard */,
 			);
 			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		A96E65D319EE1A98002A6757 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				A96E65D419EE1A98002A6757 /* RMAppDelegate.h */,
+				A96E65D519EE1A98002A6757 /* RMAppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		A96E65D719EE1B7D002A6757 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				A96E65D819EE1B7D002A6757 /* RMHomePage.h */,
+				A96E65D919EE1B7D002A6757 /* RMHomePage.m */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		A96E65DA19EE1B7D002A6757 /* LoginPage */ = {
+			isa = PBXGroup;
+			children = (
+				A96E65DB19EE1B7D002A6757 /* RMLoginUser.h */,
+				A96E65DC19EE1B7D002A6757 /* RMLoginUser.m */,
+			);
+			path = LoginPage;
+			sourceTree = "<group>";
+		};
+		A96E65DD19EE1B7D002A6757 /* RegisterPage */ = {
+			isa = PBXGroup;
+			children = (
+				A96E65DE19EE1B7D002A6757 /* RMRegisterUser.h */,
+				A96E65DF19EE1B7D002A6757 /* RMRegisterUser.m */,
+			);
+			path = RegisterPage;
+			sourceTree = "<group>";
+		};
+		A96E65E019EE1B7D002A6757 /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				A96E65E119EE1B7D002A6757 /* RMSplascreen.h */,
+				A96E65E219EE1B7D002A6757 /* RMSplascreen.m */,
+			);
+			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+		A96E65EA19EE2569002A6757 /* Birthday */ = {
+			isa = PBXGroup;
+			children = (
+				A96E65EB19EE2569002A6757 /* RMBirthday.h */,
+				A96E65EC19EE2569002A6757 /* RMBirthday.m */,
+			);
+			path = Birthday;
+			sourceTree = "<group>";
+		};
+		A96E65FD19EE26CB002A6757 /* Anniversary */ = {
+			isa = PBXGroup;
+			children = (
+				A96E65FE19EE26CB002A6757 /* RMAnniversary.h */,
+				A96E65FF19EE26CB002A6757 /* RMAnniversary.m */,
+			);
+			path = Anniversary;
+			sourceTree = "<group>";
+		};
+		A96E660119EE2745002A6757 /* Event */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Event;
+			sourceTree = "<group>";
+		};
+		A96E660319EE27D6002A6757 /* SmsVC */ = {
+			isa = PBXGroup;
+			children = (
+				A96E660419EE282E002A6757 /* RMSms.h */,
+				A96E660519EE282E002A6757 /* RMSms.m */,
+			);
+			path = SmsVC;
+			sourceTree = "<group>";
+		};
+		A96E660719EE287D002A6757 /* EmailVC */ = {
+			isa = PBXGroup;
+			children = (
+				A96E660819EE28A3002A6757 /* RMEmailVC.h */,
+				A96E660919EE28A3002A6757 /* RMEmailVC.m */,
+			);
+			path = EmailVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,11 +401,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9ACA4B219EB7C80006EF1E5 /* RMSplascreen.m in Sources */,
-				A9ACA4B519EB7D92006EF1E5 /* RMRegisterUser.m in Sources */,
-				A9ACA4BB19EB7FD3006EF1E5 /* RMHomePage.m in Sources */,
-				A9ACA4B819EB7EC4006EF1E5 /* RMLoginUser.m in Sources */,
+				A96E65E619EE1B7D002A6757 /* RMSplascreen.m in Sources */,
+				A96E65D619EE1A98002A6757 /* RMAppDelegate.m in Sources */,
+				A96E65E319EE1B7D002A6757 /* RMHomePage.m in Sources */,
+				A96E660619EE282E002A6757 /* RMSms.m in Sources */,
+				A96E660019EE26CB002A6757 /* RMAnniversary.m in Sources */,
 				A924E92519E786FF00E44E8D /* main.m in Sources */,
+				A96E65ED19EE2569002A6757 /* RMBirthday.m in Sources */,
+				A96E65E419EE1B7D002A6757 /* RMLoginUser.m in Sources */,
+				A96E660A19EE28A3002A6757 /* RMEmailVC.m in Sources */,
+				A96E65E519EE1B7D002A6757 /* RMRegisterUser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
