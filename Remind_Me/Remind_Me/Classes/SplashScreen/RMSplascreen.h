@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface RMSplascreen : UIViewController
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *act;
 
 @end

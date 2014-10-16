@@ -20,6 +20,7 @@
 		A924E94719E786FF00E44E8D /* Remind_MeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A924E94619E786FF00E44E8D /* Remind_MeTests.m */; };
 		A924E95C19E787D300E44E8D /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A924E95819E787D300E44E8D /* Main_iPad.storyboard */; };
 		A924E95D19E787D300E44E8D /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A924E95919E787D300E44E8D /* Main_iPhone.storyboard */; };
+		A93ABED519EF641F003B88E8 /* RMEventVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A93ABED419EF641F003B88E8 /* RMEventVC.m */; };
 		A96E65D619EE1A98002A6757 /* RMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A96E65D519EE1A98002A6757 /* RMAppDelegate.m */; };
 		A96E65E319EE1B7D002A6757 /* RMHomePage.m in Sources */ = {isa = PBXBuildFile; fileRef = A96E65D919EE1B7D002A6757 /* RMHomePage.m */; };
 		A96E65E419EE1B7D002A6757 /* RMLoginUser.m in Sources */ = {isa = PBXBuildFile; fileRef = A96E65DC19EE1B7D002A6757 /* RMLoginUser.m */; };
@@ -58,6 +59,8 @@
 		A924E94619E786FF00E44E8D /* Remind_MeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Remind_MeTests.m; sourceTree = "<group>"; };
 		A924E95819E787D300E44E8D /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
 		A924E95919E787D300E44E8D /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
+		A93ABED319EF641F003B88E8 /* RMEventVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMEventVC.h; sourceTree = SOURCE_ROOT; };
+		A93ABED419EF641F003B88E8 /* RMEventVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMEventVC.m; sourceTree = SOURCE_ROOT; };
 		A96E65D419EE1A98002A6757 /* RMAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMAppDelegate.h; sourceTree = "<group>"; };
 		A96E65D519EE1A98002A6757 /* RMAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMAppDelegate.m; sourceTree = "<group>"; };
 		A96E65D819EE1B7D002A6757 /* RMHomePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMHomePage.h; sourceTree = "<group>"; };
@@ -280,6 +283,8 @@
 		A96E660119EE2745002A6757 /* Event */ = {
 			isa = PBXGroup;
 			children = (
+				A93ABED319EF641F003B88E8 /* RMEventVC.h */,
+				A93ABED419EF641F003B88E8 /* RMEventVC.m */,
 			);
 			path = Event;
 			sourceTree = "<group>";
@@ -403,6 +408,7 @@
 			files = (
 				A96E65E619EE1B7D002A6757 /* RMSplascreen.m in Sources */,
 				A96E65D619EE1A98002A6757 /* RMAppDelegate.m in Sources */,
+				A93ABED519EF641F003B88E8 /* RMEventVC.m in Sources */,
 				A96E65E319EE1B7D002A6757 /* RMHomePage.m in Sources */,
 				A96E660619EE282E002A6757 /* RMSms.m in Sources */,
 				A96E660019EE26CB002A6757 /* RMAnniversary.m in Sources */,

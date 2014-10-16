@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RMAnniversary : ViewController
+@interface RMAnniversary : UIViewController
 
 @end

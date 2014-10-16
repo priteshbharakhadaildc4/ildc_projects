@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RMSms : ViewController
+@interface RMSms : UIViewController
 
 @end

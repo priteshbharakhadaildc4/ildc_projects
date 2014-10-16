@@ -1,5 +1,5 @@
 //
-//  RMEmailVC.h
+//  RMEventVC.h
 //  Remind_Me
 //
 //  Created by indianic on 15/10/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RMEmailVC : UIViewController
+@interface RMEventVC : UIViewController
 
 @end

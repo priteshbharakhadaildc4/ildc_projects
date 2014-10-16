@@ -12,6 +12,7 @@
 
 -(void)viewDidLoad
 {
+    
     [NSTimer scheduledTimerWithTimeInterval:2.0 target:self selector:@selector(moveToNextScreen) userInfo:nil repeats:NO];
     self.navigationController.navigationBarHidden = YES;
 }
